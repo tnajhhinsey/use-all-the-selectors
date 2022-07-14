@@ -10,7 +10,7 @@ header, footer {
   font-size: 1.5rem;
 }
 
-ul>nav {
+ul > nav {
   font-family: sans-serif;
 }
 
@@ -38,12 +38,14 @@ ul>nav {
   color: #93a1a1;
 }
 
-dfn>.wrapper {
+dfn > .wrapper {
   background-color: #b58900;
 }
 
-*,
-strong+.dfn {
+*, {
+  box-sizing:
+}
+strong + .dfn {
   color: #fff;
 }
 
@@ -55,22 +57,22 @@ a[rel="external"] {
   background-color: #2694d8;
 }
 
-li>ol {
+li > ol {
   color: #719e47;
 }
 
-li>ol {
+li > ol {
   color: #2aa198;
 }
 
-li:nth-child(odd)>.Types {
+li:nth-child(odd) > .Types {
   background-color: #657ba3;
 }
 
-li:nth-child(even)>.Types {
+li:nth-child(even) > .Types {
   background-color: #586e75;
 }
 
-li:nth-child(3)>.Types {
+li:nth-child(3) > .Types {
   background-color: #d04b16;
 }
