@@ -32,7 +32,8 @@ background-color: #eee8d5;}
 strong + .dfn{
 color: #fff;}
 
-<a background-color: #719e07;}
+a:active {
+  background-color: #719e07;}
 
 a[rel="external"]{
 background-color: #2694d8;}
