@@ -1,70 +1,76 @@
 html {
   box-sizing: border-box;
 }
-body{
+
+body {
   background-color: #fdf6e3;
 }
 
-header, footer{
+header, footer {
   font-size: 1.5rem;
 }
- ul > nav{
+
+ul>nav {
   font-family: sans-serif;
 }
 
- .logo{
- text-transform: uppercase;
+.logo {
+  text-transform: uppercase;
 }
 
-.wrapper{
-background-color: #eee8d5;
+.wrapper {
+  background-color: #eee8d5;
 }
 
-#contents{
-   color: #93a1a1;
- }
-   #favs{
-     color: #93a1a1;
-   }
-   #facts{
-      color: #93a1a1;
-   }
-   #types{
-      color: #93a1a1;
-   }
- dfn > .wrapper{
+#contents {
+  color: #93a1a1;
+}
+
+#favs {
+  color: #93a1a1;
+}
+
+#facts {
+  color: #93a1a1;
+}
+
+#types {
+  color: #93a1a1;
+}
+
+dfn>.wrapper {
   background-color: #b58900;
 }
 
 *,
-strong + .dfn{
-color: #fff;
+strong+.dfn {
+  color: #fff;
 }
 
 a:active {
   background-color: #719e07;
 }
 
-a[rel="external"]{
-background-color: #2694d8;
+a[rel="external"] {
+  background-color: #2694d8;
 }
 
-li > ol{
-color: #719e47;
+li>ol {
+  color: #719e47;
 }
 
- li > ol{
- color: #2aa198;
+li>ol {
+  color: #2aa198;
 }
 
- li:nth-child(odd)>.Types {
-     background-color: #657ba3;
- }
+li:nth-child(odd)>.Types {
+  background-color: #657ba3;
+}
 
- li:nth-child(even)>.Types {
-      background-color: #586e75;
- }
+li:nth-child(even)>.Types {
+  background-color: #586e75;
+}
 
- li:nth-child(3)>.Types {
-    background-color: #d04b16;
+li:nth-child(3)>.Types {
+  background-color: #d04b16;
 }
