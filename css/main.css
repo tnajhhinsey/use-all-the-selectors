@@ -47,7 +47,7 @@ strong + .dfn {
   color: #fff;
 }
 
-a[href="index.html"] {
+a:link {
   background-color: #719e07;
 }
 
