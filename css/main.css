@@ -1,6 +1,6 @@
-html {
-  box-sizing: border-box;
-}
+html * {
+    box-sizing:
+  }
 
 body {
   background-color: #fdf6e3;
@@ -42,9 +42,7 @@ dfn > .wrapper {
   background-color: #b58900;
 }
 
-*, {
-  box-sizing:
-}
+
 strong + .dfn {
   color: #fff;
 }
